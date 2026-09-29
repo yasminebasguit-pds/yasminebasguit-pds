@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="270" viewBox="0 0 800 270">
+  <defs><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7ECE4"/><stop offset="1" stop-color="#E8D3C4"/></linearGradient></defs>
+  <style>
+    .cyc{opacity:0;animation:cyc 15s ease-in-out infinite}
+    .fl{animation:float 3.6s ease-in-out infinite}
+    @keyframes cyc{0%{opacity:0;transform:translateY(14px)}3%{opacity:1;transform:translateY(0)}17%{opacity:1;transform:translateY(0)}20%,100%{opacity:0;transform:translateY(-14px)}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    .ttl{font:700 24px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#4A0E1A}
+    .big{font:700 58px 'Segoe UI','Noto Sans Arabic',Arial,sans-serif;fill:#800020}
+    .cap{font:600 18px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#6B4226}
+  </style>
+  <rect x="3" y="3" width="794" height="264" rx="28" fill="url(#card)" stroke="#800020" stroke-width="3"/>
+  <text x="400" y="44" text-anchor="middle" class="ttl">🗣️ languages I speak</text>
+<text x="400" y="128" text-anchor="middle" class="big cyc" style="animation-delay:0s">Hello</text>
+<text x="400" y="160" text-anchor="middle" class="cap cyc" style="animation-delay:0s">English</text>
+<text x="400" y="128" text-anchor="middle" class="big cyc" style="animation-delay:3s">Bonjour</text>
+<text x="400" y="160" text-anchor="middle" class="cap cyc" style="animation-delay:3s">Français</text>
+<text x="400" y="128" text-anchor="middle" class="big cyc" style="animation-delay:6s">مرحبا</text>
+<text x="400" y="160" text-anchor="middle" class="cap cyc" style="animation-delay:6s">العربية</text>
+<text x="400" y="128" text-anchor="middle" class="big cyc" style="animation-delay:9s">Hallo</text>
+<text x="400" y="160" text-anchor="middle" class="cap cyc" style="animation-delay:9s">Deutsch (basic)</text>
+<text x="400" y="128" text-anchor="middle" class="big cyc" style="animation-delay:12s">Ciao</text>
+<text x="400" y="160" text-anchor="middle" class="cap cyc" style="animation-delay:12s">Italiano (basic)</text>
+<g transform="translate(30,196)"><g class="fl" style="animation-delay:0.0s"><rect width="110" height="40" rx="20" fill="#800020" stroke="#800020" stroke-width="2"/><text x="55.0" y="26" text-anchor="middle" style="font:700 16px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#FFFFFF">English</text></g></g>
+<g transform="translate(150,196)"><g class="fl" style="animation-delay:0.4s"><rect width="120" height="40" rx="20" fill="#4A0E1A" stroke="#800020" stroke-width="2"/><text x="60.0" y="26" text-anchor="middle" style="font:700 16px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#FFFFFF">Français</text></g></g>
+<g transform="translate(280,196)"><g class="fl" style="animation-delay:0.8s"><rect width="110" height="40" rx="20" fill="#6B4226" stroke="#800020" stroke-width="2"/><text x="55.0" y="26" text-anchor="middle" style="font:700 16px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#FFFFFF">العربية</text></g></g>
+<g transform="translate(400,196)"><g class="fl" style="animation-delay:1.2000000000000002s"><rect width="180" height="40" rx="20" fill="#E8D3C4" stroke="#800020" stroke-width="2"/><text x="90.0" y="26" text-anchor="middle" style="font:700 16px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#2E0F14">Deutsch · basic</text></g></g>
+<g transform="translate(590,196)"><g class="fl" style="animation-delay:1.6s"><rect width="180" height="40" rx="20" fill="#E8D3C4" stroke="#800020" stroke-width="2"/><text x="90.0" y="26" text-anchor="middle" style="font:700 16px 'Trebuchet MS','Segoe UI',Verdana,sans-serif;fill:#2E0F14">Italiano · basic</text></g></g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440">
+  <defs>
+<clipPath id="c0a"><rect x="30" y="68" width="0" height="34"><animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.0273;0.0864;0.95;1" values="0;0;740;740;0"/></rect></clipPath>
+<clipPath id="c0b"><rect x="30" y="96" width="0" height="34"><animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.0955;0.1409;0.95;1" values="0;0;740;740;0"/></rect></clipPath>
+<clipPath id="c1a"><rect x="30" y="130" width="0" height="34"><animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.1636;0.2227;0.95;1" values="0;0;740;740;0"/></rect></clipPath>
+<clipPath id="c1b"><rect x="30" y="158" width="0" height="34"><animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.2318;0.2773;0.95;1" values="0;0;740;740;0"/></rect></clipPath>
+<clipPath id="c2a"><rect x="30" y="192" width="0" height="34"><animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.2909;0.3500;0.95;1" values="0;0;740;740;0"/></rect></clipPath>
+<clipPath id="c2b"><rect x="30" y="220" width="0" height="34"><animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.3591;0.4045;0.95;1" values="0;0;740;740;0"/></rect></clipPath>
+<clipPath id="c3a"><rect x="30" y="254" width="0" height="34"><animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.4091;0.4682;0.95;1" values="0;0;740;740;0"/></rect></clipPath>
+<clipPath id="c3b"><rect x="30" y="282" width="0" height="34"><animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.4773;0.5227;0.95;1" values="0;0;740;740;0"/></rect></clipPath>
+<clipPath id="c4a"><rect x="30" y="316" width="0" height="34"><animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.5545;0.6136;0.95;1" values="0;0;740;740;0"/></rect></clipPath>
+<clipPath id="c4b"><rect x="30" y="344" width="0" height="34"><animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.6227;0.6682;0.95;1" values="0;0;740;740;0"/></rect></clipPath>
+  </defs>
+  <style>
+    .cmd{font:600 20px 'Courier New',Courier,monospace;fill:#E8D3C4}
+    .out{font:600 18px 'Courier New',Courier,monospace;fill:#FFFFFF}
+    .ttl{font:600 14px 'Courier New',Courier,monospace;fill:#E8D3C4}
+    .cur{animation:blink 1s steps(2,start) infinite}
+    @keyframes blink{to{visibility:hidden}}
+  </style>
+  <rect x="3" y="3" width="794" height="434" rx="22" fill="#25090F" stroke="#800020" stroke-width="3"/>
+  <path d="M3,25 a22,22 0 0 1 22,-22 H775 a22,22 0 0 1 22,22 V46 H3Z" fill="#4A0E1A"/>
+  <circle cx="30" cy="25" r="7" fill="#C9A18A"/><circle cx="54" cy="25" r="7" fill="#E0A96D"/><circle cx="78" cy="25" r="7" fill="#F7ECE4"/>
+  <text x="400" y="30" text-anchor="middle" class="ttl">yasmine@burgundy: ~/portfolio</text>
+  <g transform="translate(0,26)">
+<g clip-path="url(#c0a)"><text x="40" y="92" class="cmd"><tspan fill="#E0A96D">$</tspan> whoami</text></g>
+<g clip-path="url(#c0b)"><text x="40" y="120" class="out">Yasmine // CS student @ Constructor University</text></g>
+<g clip-path="url(#c1a)"><text x="40" y="154" class="cmd"><tspan fill="#E0A96D">$</tspan> cat now_building.txt</text></g>
+<g clip-path="url(#c1b)"><text x="40" y="182" class="out">Online Schema: MariaDB team project (4 people)</text></g>
+<g clip-path="url(#c2a)"><text x="40" y="216" class="cmd"><tspan fill="#E0A96D">$</tspan> python -m unittest</text></g>
+<g clip-path="url(#c2b)"><text x="40" y="244" class="out">Ran 16 tests ... OK ✓</text></g>
+<g clip-path="url(#c3a)"><text x="40" y="278" class="cmd"><tspan fill="#E0A96D">$</tspan> opinions --load</text></g>
+<g clip-path="url(#c3b)"><text x="40" y="306" class="out">Error 404: not found 💅</text></g>
+<g clip-path="url(#c4a)"><text x="40" y="340" class="cmd"><tspan fill="#E0A96D">$</tspan> languages</text></g>
+<g clip-path="url(#c4b)"><text x="40" y="368" class="out">en, fr, ar, de (basic), it (basic)</text></g>
+    <g><animate attributeName="opacity" dur="22s" repeatCount="indefinite" keyTimes="0;0.70;0.73;0.95;1" values="0;0;1;1;0"/>
+      <text x="40" y="398" class="cmd"><tspan fill="#E0A96D">$</tspan> <tspan class="cur" fill="#FFFFFF">█</tspan></text>
+    </g>
+  </g>
+</svg>
